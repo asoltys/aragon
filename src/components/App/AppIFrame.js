@@ -182,6 +182,7 @@ class AppIFrame extends React.Component {
         {progressBar}
         <StyledIFrame
           name="AppIFrame"
+          allow="camera"
           frameBorder="0"
           onLoad={this.handleOnLoad}
           innerRef={this.handleIFrameRef}
